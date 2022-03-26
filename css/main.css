@@ -66,3 +66,39 @@ a {
     position: relative;
     right: 0;
 }
+.hero {
+    background-image: url('../assets/images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 150px;
+}
+.hero__header, .hero__text {
+    max-width: 800px;
+}
+.hero__header {
+    font-size: 72px;
+    font-weight: 400;
+    margin: 0;
+}
+.hero__text {
+    font-size: 26px;
+    line-height: 30px;
+}
+.hero__btn {
+    height: 45px;
+    width: 200px;
+    background: #F98832;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.hero__btn:hover {
+    background: #cf6f26;
+}

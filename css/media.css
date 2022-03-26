@@ -37,4 +37,17 @@
     .site-header__contacts span {
         margin: 10px 0;
     }
+    .hero {
+        padding: 0 30px;
+    }
+    .hero__header, .hero__text {
+        max-width: 500px;
+    }
+    .hero__header {
+        font-size: 48px;
+    }
+    .hero__text {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
