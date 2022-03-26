@@ -61,3 +61,8 @@ a {
 .site-header__links a:hover {
     background: #eaeaea;
 }
+.container {
+    width: 100%;
+    position: relative;
+    right: 0;
+}
