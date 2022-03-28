@@ -102,3 +102,87 @@ a {
 .hero__btn:hover {
     background: #cf6f26;
 }
+.section {
+    padding: 30px;
+}
+.section h3 {
+    color: #3E5777;
+    font-size: 28px;
+    text-align: center;
+}
+.art-boxes__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.art-boxes__item {
+    border: 1px solid #B0B0B0;
+    margin: 10px;
+    display: flex;
+    width: calc(100% / 3 - 90px);
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.art-boxes__item > img {
+    width: 100%;
+    height: 250px;
+}
+.art-boxes__item > h4 {
+    margin: 15px 0;
+}
+.art-boxes__item > p {
+    width: 95%;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #3E5777;
+    border-bottom: 1px solid #3E5777;
+}
+.art-boxes__item > h5 {
+    margin: 15px 0;
+}
+.art-boxes__item form {
+    display: flex;
+    width: 90%;
+    margin: 10px;
+    justify-content: space-between;
+}
+.art-boxes__sizer input[type=radio] {
+    display: none;
+}
+.art-boxes__sizer p {
+    font-size: 12px;
+    text-align: center;
+}
+.art-boxes__sizer label > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+    border: 1px solid #282F32;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+.art-boxes__sizer label > input[type=radio]:checked + span {
+    border: 1px solid #F98832;
+}
+.art-boxes__sizer label:hover {
+    border: 1px solid #F98832;
+}
+.art-boxes__item > button {
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid #F98832;
+    height: 50px;
+    background: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+.art-boxes__item > button:hover {
+    background: #F98832;
+}
