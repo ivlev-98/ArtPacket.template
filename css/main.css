@@ -186,6 +186,7 @@ a {
 }
 .art-boxes__item > button:hover {
     background: #F98832;
+    color: #fff;
 }
 .instruction__list {
     position: relative;
