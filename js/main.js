@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
     ymaps.ready(init);
     function init(){
         const myMap = new ymaps.Map("map", {
-            center: [55.76, 37.64],
-            zoom: 12
+            center: [59.939099, 30.315877],
+            zoom: 10
         });
         var myGeoObject = new ymaps.GeoObject({
             geometry: {
                 type: "Point",
-                coordinates: [55.77, 37.69]
+                coordinates: [59.95, 30.35]
             }
         });
         myMap.geoObjects.add(myGeoObject); 

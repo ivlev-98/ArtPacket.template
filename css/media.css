@@ -72,6 +72,14 @@
     .delivery__items {
         width: 90%;
     }
+    .site-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .site-footer > div {
+        margin: 25px 0;
+    }
 }
 @media (max-width: 750px) {
     .art-boxes {
