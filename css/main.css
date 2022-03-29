@@ -239,6 +239,9 @@ a {
 .aqua {
     background-color: #0B779D;
 }
+.orange {
+    background-color: #F98832;
+}
 .instruction__text > h4 {
     margin: 10px 0;
 }
@@ -266,4 +269,35 @@ a {
 }
 .faq__item button:hover {
     background: #cf6f26;
+}
+.delivery__map {
+    width: calc(45% - 60px);
+    height: 400px;
+    margin: 20px;
+}
+.delivery__list {
+    display: flex;
+    justify-content: center;
+}
+.delivery__items {
+    width: calc(50% - 60px);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.delivery__item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.delivery__img {
+    width: 60px;
+    margin: 0 10px;
+    height: 60px;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }

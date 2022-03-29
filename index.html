@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
     <script defer src="js/menu.js"></script>
+    <script defer src="https://api-maps.yandex.ru/2.1/?lang=ru_RU">
+    </script>
     <script defer src="js/main.js"></script>
     <title>ArtPacket</title>
 </head>
@@ -292,6 +294,26 @@
                         <h4>Остались вопросы?</h4>
                         <button>Напиши нам</button>
                     </article>
+                </div>
+            </section>
+            <section class="section delivery" id="ship">
+                <h3>Доставка</h3>
+                <div class="delivery__list">
+                    <div id="map" class="delivery__map"></div>
+                    <div class="delivery__items">
+                        <div class="delivery__item">
+                            <div class="delivery__img orange"><img alt="*" loading="lazy" src="assets/images/Contactless.svg"></div>
+                            <p>Все заказы доставляются бесконтактной доставкой.</p>
+                        </div>
+                        <div class="delivery__item">
+                            <div class="delivery__img navy"><img alt="*" loading="lazy" src="assets/images/courier.svg"></div>
+                            <p>В день доставки с вами свяжется курьер для подтверждения. Сообщите ему, где оставить для вас заказ. При пропущенном звонке заказ может быть отменен.</p>
+                        </div>
+                        <div class="delivery__item">
+                            <div class="delivery__img torq"><img alt="*" loading="lazy" src="assets/images/RUS.svg"></div>
+                            <p>Доставка по всей России.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

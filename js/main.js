@@ -6,4 +6,18 @@ document.addEventListener("DOMContentLoaded", () => {
         'activeClass': 'active'
     });
     menu.watch();
+    ymaps.ready(init);
+    function init(){
+        const myMap = new ymaps.Map("map", {
+            center: [55.76, 37.64],
+            zoom: 12
+        });
+        var myGeoObject = new ymaps.GeoObject({
+            geometry: {
+                type: "Point",
+                coordinates: [55.77, 37.69]
+            }
+        });
+        myMap.geoObjects.add(myGeoObject); 
+    }
 });
