@@ -80,6 +80,10 @@
     .site-footer > div {
         margin: 25px 0;
     }
+    .modal {
+        width: 80%;
+        left: calc(50% - 80% / 2);
+    }
 }
 @media (max-width: 750px) {
     .art-boxes {
@@ -117,5 +121,9 @@
     }
     .delivery__item {
         margin: 20px 0;
+    }
+    .modal {
+        width: 97%;
+        left: calc(50% - 97% / 2);
     }
 }

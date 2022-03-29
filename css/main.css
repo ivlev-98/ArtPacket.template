@@ -321,3 +321,94 @@ a {
 .site-footer > div > div {
     display: flex;
 }
+.modal {
+    width: 550px;
+    top: 50px;
+    z-index: 6;
+    background: #fff;
+    transition: .5;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    left: calc(50% - 275px);
+}
+#overlay {
+    position: fixed;
+    z-index: 5;
+    display: none;
+    visibility: hidden;
+    background:#282F32;
+    transition: .5s;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+#overlay.active {
+    display: block;
+    visibility: visible;
+    opacity: .7;
+}
+.modal.active {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.modal__header {
+    background-color: #3E5777;
+    color: #fff;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal__form label {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    margin: 10px;
+    width: 90%;
+}
+.modal__form input {
+    margin: 5px 0;
+    font-size: 14px;
+    border: none;
+    height: 40px;
+}
+.modal__form input:focus, .modal__form textarea:focus {
+    outline: none;
+}
+.modal__form textarea {
+    resize: none;
+    height: 80px;
+    font-size: 14px;
+    padding: 15px 0;
+    margin: 5px 0;
+    border: none;
+}
+.modal__form input[type=submit] {
+    border: 1px solid #F98832;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 0 30px;
+    margin: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+.modal__form input[type=submit]:hover {
+    background-color: #F98832;
+    color: #fff;
+}
+.modal__header svg {
+    position: absolute;
+    font-size: 1.7em;
+    right: 10px;
+    cursor: pointer;
+}
