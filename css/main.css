@@ -103,7 +103,7 @@ a {
     background: #cf6f26;
 }
 .section {
-    padding: 30px;
+    padding: 30px 30px 0 30px;
 }
 .section h3 {
     color: #3E5777;
@@ -117,7 +117,7 @@ a {
 }
 .art-boxes__item {
     border: 1px solid #B0B0B0;
-    margin: 10px;
+    margin: 20px 10px;
     display: flex;
     width: calc(100% / 3 - 90px);
     align-items: center;
@@ -241,4 +241,29 @@ a {
 }
 .instruction__text > h4 {
     margin: 10px 0;
+}
+.faq__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.faq__item {
+    width: calc(100% / 2 - 90px);
+    margin: 20px;
+}
+.faq__item h4 {
+    font-size: 22px;
+}
+.faq__item button {
+    height: 45px;
+    width: 200px;
+    background: #F98832;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.faq__item button:hover {
+    background: #cf6f26;
 }
